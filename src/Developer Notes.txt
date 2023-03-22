@@ -1,0 +1,88 @@
+Started: Monday May 2nd 2022 at 1:47...
+
+As of 7:50 pm on 5/2/22,
+    I have the basics tested out for locations.
+    If you put a letter, program will freak out and will end eventually.
+    Otherwise everything else seems to be working.
+
+As of 11 at night on 05/02/22,
+    I have managed to get the method working for gathering data and creating a sample receipt that
+    prints the order to the output console. (no price tag).
+    The next steps is trying to get the customizations in a class and then call and return values.
+    I want to be able to have the menu separate from the customizations. Otherwise the code will be too much code.
+    Any other sizes or customizations will all be in one file.
+    When the user is done, redirect to menu for more choices.
+
+    If user is ready to pay:
+    In terms of price tag, I should create a global variable that tracks how many of each item is there.
+    In the very end when it comes for payment, we calculate sample prices and stuff like that.
+
+    Must create payment class that takes credit card and a class to view cart.
+    I don't know how to delete a single item in the cart so we will empty the entire cart.
+
+As of 11 in the morning on 05/03/22
+    I have managed to get the hot coffees done and working!
+
+As of 8:30 on 05/03/22
+    I have got 4 cases done. I have also gotten the payment to work as well.
+    My next step is to print the receipt to a txt file and try get the removing things from basket to work.
+        To do this, I should try ask the user if the basket looks good in the menu itself and then
+        do all the algorithm stuff in the switch statement itself. This will add a bunch of code, but it might work.
+    After that, I need to finish the customizations for other products and get the other products in the database.
+    Everything else seems to work just fine.
+
+As of 11:58 on 05/03/22
+    I have fixed the removing items from basket glitch.
+    Things to do for the cold Coffees:
+        ice, and room, lemonade. (add iceCustomization method)
+    Things to do for the iced teas:
+        the first two are bottled, make sure to not have customizations. For the rest, please have it.
+    Things to do for cold drinks:
+        have special method. coldDCustomization method
+        There is alot of bottled stuff, do not add customizations to them. Only open drinks.
+
+As of 12:54 am on 05/03/22
+       I have done cold Coffees. I have to do ice teas and cold drinks then focus on breakfast and lunch.
+       After that, I will have to do do merchandise and then calculate the total cost in the cart class.
+       Currently with 15000 lines of code.
+        Things to do for the iced teas:
+               the first two are bottled, make sure to not have customizations. For the rest, please have it.
+               They should use the tea customizations.
+        Things to do for cold drinks:
+               have special method. coldDCustomization method
+               There is alot of bottled stuff, do not add customizations to them. Only open drinks.
+
+
+As of 11:30 on 05/04/22
+        Done with all the drink.
+        To do:
+        Fix the customization options for the cold drinks.
+        Create customizations for hot breakfast
+            have a separate method for siracha only
+        Lunch will only have an add on for siracha.
+        The boxes will not have add ons
+
+As of 3:11 in the morning of 05/05/22
+    Must fix the price tag on the last two methods. and finish the last method that was working on.
+
+
+As of noon on 05/05/22
+    I have fixed the price tag and I'm working on the lunch method. I need snack and oaty method right after that.
+    I have made the sirracha method and will begin the lunch method. The boxes will be $5.
+    The snacks will be $2. the oatmeals will be $3. The oatmeals need another custumization method.
+
+    size of things : protein box, snacks, grande, short, tall, venti, food.
+
+	short = 3.50.   Capital
+	tall = 4.00.     cap 
+	grande = 4.5.    cap
+	venti = 5.00.     cap 
+	protein box = 5.00.  proteinbox 
+	snacks = 2.00.        snacks
+	food = 4.00.      food
+
+
+As of 05/05/ 6:07
+    I am practically finished with the project.
+    The last thing I need to do is use exception Handling to clean the bugs out of user input.
+    I should be done with this lab by the end of lab tomorrow.
